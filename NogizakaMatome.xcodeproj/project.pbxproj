@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FD420FB3CAC00472386 /* AppDelegate.swift */; };
+		DD223FD720FB3CAC00472386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FD620FB3CAC00472386 /* ViewController.swift */; };
+		DD223FDA20FB3CAC00472386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD223FD820FB3CAC00472386 /* Main.storyboard */; };
+		DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD223FDB20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld */; };
+		DD223FDF20FB3CAC00472386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD223FDE20FB3CAC00472386 /* Assets.xcassets */; };
+		DD223FE220FB3CAC00472386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */; };
+		DD223FED20FB3CAC00472386 /* NogizakaMatomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FEC20FB3CAC00472386 /* NogizakaMatomeTests.swift */; };
+		DD223FF820FB3CAD00472386 /* NogizakaMatomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD223FE920FB3CAC00472386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD223FC920FB3CAC00472386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD223FD020FB3CAC00472386;
+			remoteInfo = NogizakaMatome;
+		};
+		DD223FF420FB3CAD00472386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD223FC920FB3CAC00472386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD223FD020FB3CAC00472386;
+			remoteInfo = NogizakaMatome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD223FD120FB3CAC00472386 /* NogizakaMatome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NogizakaMatome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD223FD420FB3CAC00472386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD223FD620FB3CAC00472386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD223FD920FB3CAC00472386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD223FDC20FB3CAC00472386 /* NogizakaMatome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NogizakaMatome.xcdatamodel; sourceTree = "<group>"; };
+		DD223FDE20FB3CAC00472386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD223FE120FB3CAC00472386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD223FE320FB3CAC00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD223FE820FB3CAC00472386 /* NogizakaMatomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NogizakaMatomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD223FEC20FB3CAC00472386 /* NogizakaMatomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NogizakaMatomeTests.swift; sourceTree = "<group>"; };
+		DD223FEE20FB3CAC00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD223FF320FB3CAC00472386 /* NogizakaMatomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NogizakaMatomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NogizakaMatomeUITests.swift; sourceTree = "<group>"; };
+		DD223FF920FB3CAD00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD223FCE20FB3CAC00472386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FE520FB3CAC00472386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FF020FB3CAC00472386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD223FC820FB3CAC00472386 = {
+			isa = PBXGroup;
+			children = (
+				DD223FD320FB3CAC00472386 /* NogizakaMatome */,
+				DD223FEB20FB3CAC00472386 /* NogizakaMatomeTests */,
+				DD223FF620FB3CAD00472386 /* NogizakaMatomeUITests */,
+				DD223FD220FB3CAC00472386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD223FD220FB3CAC00472386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD223FD120FB3CAC00472386 /* NogizakaMatome.app */,
+				DD223FE820FB3CAC00472386 /* NogizakaMatomeTests.xctest */,
+				DD223FF320FB3CAC00472386 /* NogizakaMatomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD223FD320FB3CAC00472386 /* NogizakaMatome */ = {
+			isa = PBXGroup;
+			children = (
+				DD223FD420FB3CAC00472386 /* AppDelegate.swift */,
+				DD223FD620FB3CAC00472386 /* ViewController.swift */,
+				DD223FD820FB3CAC00472386 /* Main.storyboard */,
+				DD223FDE20FB3CAC00472386 /* Assets.xcassets */,
+				DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */,
+				DD223FE320FB3CAC00472386 /* Info.plist */,
+				DD223FDB20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld */,
+			);
+			path = NogizakaMatome;
+			sourceTree = "<group>";
+		};
+		DD223FEB20FB3CAC00472386 /* NogizakaMatomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD223FEC20FB3CAC00472386 /* NogizakaMatomeTests.swift */,
+				DD223FEE20FB3CAC00472386 /* Info.plist */,
+			);
+			path = NogizakaMatomeTests;
+			sourceTree = "<group>";
+		};
+		DD223FF620FB3CAD00472386 /* NogizakaMatomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */,
+				DD223FF920FB3CAD00472386 /* Info.plist */,
+			);
+			path = NogizakaMatomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD223FD020FB3CAC00472386 /* NogizakaMatome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD223FFC20FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatome" */;
+			buildPhases = (
+				DD223FCD20FB3CAC00472386 /* Sources */,
+				DD223FCE20FB3CAC00472386 /* Frameworks */,
+				DD223FCF20FB3CAC00472386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NogizakaMatome;
+			productName = NogizakaMatome;
+			productReference = DD223FD120FB3CAC00472386 /* NogizakaMatome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD223FE720FB3CAC00472386 /* NogizakaMatomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD223FFF20FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatomeTests" */;
+			buildPhases = (
+				DD223FE420FB3CAC00472386 /* Sources */,
+				DD223FE520FB3CAC00472386 /* Frameworks */,
+				DD223FE620FB3CAC00472386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD223FEA20FB3CAC00472386 /* PBXTargetDependency */,
+			);
+			name = NogizakaMatomeTests;
+			productName = NogizakaMatomeTests;
+			productReference = DD223FE820FB3CAC00472386 /* NogizakaMatomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD223FF220FB3CAC00472386 /* NogizakaMatomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD22400220FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatomeUITests" */;
+			buildPhases = (
+				DD223FEF20FB3CAC00472386 /* Sources */,
+				DD223FF020FB3CAC00472386 /* Frameworks */,
+				DD223FF120FB3CAC00472386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD223FF520FB3CAD00472386 /* PBXTargetDependency */,
+			);
+			name = NogizakaMatomeUITests;
+			productName = NogizakaMatomeUITests;
+			productReference = DD223FF320FB3CAC00472386 /* NogizakaMatomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD223FC920FB3CAC00472386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "福田光祐";
+				TargetAttributes = {
+					DD223FD020FB3CAC00472386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DD223FE720FB3CAC00472386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD223FD020FB3CAC00472386;
+					};
+					DD223FF220FB3CAC00472386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD223FD020FB3CAC00472386;
+					};
+				};
+			};
+			buildConfigurationList = DD223FCC20FB3CAC00472386 /* Build configuration list for PBXProject "NogizakaMatome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD223FC820FB3CAC00472386;
+			productRefGroup = DD223FD220FB3CAC00472386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD223FD020FB3CAC00472386 /* NogizakaMatome */,
+				DD223FE720FB3CAC00472386 /* NogizakaMatomeTests */,
+				DD223FF220FB3CAC00472386 /* NogizakaMatomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD223FCF20FB3CAC00472386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD223FE220FB3CAC00472386 /* LaunchScreen.storyboard in Resources */,
+				DD223FDF20FB3CAC00472386 /* Assets.xcassets in Resources */,
+				DD223FDA20FB3CAC00472386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FE620FB3CAC00472386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FF120FB3CAC00472386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD223FCD20FB3CAC00472386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD223FD720FB3CAC00472386 /* ViewController.swift in Sources */,
+				DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */,
+				DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FE420FB3CAC00472386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD223FED20FB3CAC00472386 /* NogizakaMatomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD223FEF20FB3CAC00472386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD223FF820FB3CAD00472386 /* NogizakaMatomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD223FEA20FB3CAC00472386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD223FD020FB3CAC00472386 /* NogizakaMatome */;
+			targetProxy = DD223FE920FB3CAC00472386 /* PBXContainerItemProxy */;
+		};
+		DD223FF520FB3CAD00472386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD223FD020FB3CAC00472386 /* NogizakaMatome */;
+			targetProxy = DD223FF420FB3CAD00472386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD223FD820FB3CAC00472386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD223FD920FB3CAC00472386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD223FE120FB3CAC00472386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD223FFA20FB3CAD00472386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD223FFB20FB3CAD00472386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD223FFD20FB3CAD00472386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD223FFE20FB3CAD00472386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD22400020FB3CAD00472386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NogizakaMatome.app/NogizakaMatome";
+			};
+			name = Debug;
+		};
+		DD22400120FB3CAD00472386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NogizakaMatome.app/NogizakaMatome";
+			};
+			name = Release;
+		};
+		DD22400320FB3CAD00472386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NogizakaMatome;
+			};
+			name = Debug;
+		};
+		DD22400420FB3CAD00472386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T774LNS7X;
+				INFOPLIST_FILE = NogizakaMatomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosukefukuda.NogizakaMatomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NogizakaMatome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD223FCC20FB3CAC00472386 /* Build configuration list for PBXProject "NogizakaMatome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD223FFA20FB3CAD00472386 /* Debug */,
+				DD223FFB20FB3CAD00472386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD223FFC20FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD223FFD20FB3CAD00472386 /* Debug */,
+				DD223FFE20FB3CAD00472386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD223FFF20FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22400020FB3CAD00472386 /* Debug */,
+				DD22400120FB3CAD00472386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD22400220FB3CAD00472386 /* Build configuration list for PBXNativeTarget "NogizakaMatomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22400320FB3CAD00472386 /* Debug */,
+				DD22400420FB3CAD00472386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD223FDB20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD223FDC20FB3CAC00472386 /* NogizakaMatome.xcdatamodel */,
+			);
+			currentVersion = DD223FDC20FB3CAC00472386 /* NogizakaMatome.xcdatamodel */;
+			path = NogizakaMatome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD223FC920FB3CAC00472386 /* Project object */;
+}
