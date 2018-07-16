@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FD420FB3CAC00472386 /* AppDelegate.swift */; };
-		DD223FD720FB3CAC00472386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FD620FB3CAC00472386 /* ViewController.swift */; };
 		DD223FDA20FB3CAC00472386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD223FD820FB3CAC00472386 /* Main.storyboard */; };
 		DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD223FDB20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld */; };
 		DD223FDF20FB3CAC00472386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD223FDE20FB3CAC00472386 /* Assets.xcassets */; };
 		DD223FE220FB3CAC00472386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */; };
 		DD223FED20FB3CAC00472386 /* NogizakaMatomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FEC20FB3CAC00472386 /* NogizakaMatomeTests.swift */; };
 		DD223FF820FB3CAD00472386 /* NogizakaMatomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */; };
+		DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */; };
+		DDB8A2A120FCF786001077CE /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		DD223FD120FB3CAC00472386 /* NogizakaMatome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NogizakaMatome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD223FD420FB3CAC00472386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD223FD620FB3CAC00472386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD223FD920FB3CAC00472386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD223FDC20FB3CAC00472386 /* NogizakaMatome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NogizakaMatome.xcdatamodel; sourceTree = "<group>"; };
 		DD223FDE20FB3CAC00472386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		DD223FF320FB3CAC00472386 /* NogizakaMatomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NogizakaMatomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NogizakaMatomeUITests.swift; sourceTree = "<group>"; };
 		DD223FF920FB3CAD00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewController.swift; sourceTree = "<group>"; };
+		DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 		DD223FD320FB3CAC00472386 /* NogizakaMatome */ = {
 			isa = PBXGroup;
 			children = (
+				DDB8A29B20FCB7B7001077CE /* Controller */,
 				DD223FD420FB3CAC00472386 /* AppDelegate.swift */,
-				DD223FD620FB3CAC00472386 /* ViewController.swift */,
 				DD223FD820FB3CAC00472386 /* Main.storyboard */,
 				DD223FDE20FB3CAC00472386 /* Assets.xcassets */,
 				DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				DD223FF920FB3CAD00472386 /* Info.plist */,
 			);
 			path = NogizakaMatomeUITests;
+			sourceTree = "<group>";
+		};
+		DDB8A29B20FCB7B7001077CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */,
+				DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "福田光祐";
 				TargetAttributes = {
 					DD223FD020FB3CAC00472386 = {
@@ -262,7 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD223FD720FB3CAC00472386 /* ViewController.swift in Sources */,
+				DDB8A2A120FCF786001077CE /* MemberCollectionViewCell.swift in Sources */,
+				DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */,
 				DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */,
 				DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */,
 			);
@@ -333,6 +345,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +404,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +412,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
