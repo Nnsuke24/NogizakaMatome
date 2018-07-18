@@ -14,6 +14,7 @@
 		DD223FE220FB3CAC00472386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD223FE020FB3CAC00472386 /* LaunchScreen.storyboard */; };
 		DD223FED20FB3CAC00472386 /* NogizakaMatomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FEC20FB3CAC00472386 /* NogizakaMatomeTests.swift */; };
 		DD223FF820FB3CAD00472386 /* NogizakaMatomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */; };
+		DD46964C20FF84BD0038BF14 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46964B20FF84BD0038BF14 /* Members.swift */; };
 		DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */; };
 		DDB8A2A120FCF786001077CE /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		DD223FF320FB3CAC00472386 /* NogizakaMatomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NogizakaMatomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NogizakaMatomeUITests.swift; sourceTree = "<group>"; };
 		DD223FF920FB3CAD00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD46964B20FF84BD0038BF14 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
 		DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewController.swift; sourceTree = "<group>"; };
 		DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		DD223FD320FB3CAC00472386 /* NogizakaMatome */ = {
 			isa = PBXGroup;
 			children = (
+				DD46964920FF84860038BF14 /* Models */,
 				DDB8A29B20FCB7B7001077CE /* Controller */,
 				DD223FD420FB3CAC00472386 /* AppDelegate.swift */,
 				DD223FD820FB3CAC00472386 /* Main.storyboard */,
@@ -128,6 +131,14 @@
 				DD223FF920FB3CAD00472386 /* Info.plist */,
 			);
 			path = NogizakaMatomeUITests;
+			sourceTree = "<group>";
+		};
+		DD46964920FF84860038BF14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD46964B20FF84BD0038BF14 /* Members.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DDB8A29B20FCB7B7001077CE /* Controller */ = {
@@ -274,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB8A2A120FCF786001077CE /* MemberCollectionViewCell.swift in Sources */,
+				DD46964C20FF84BD0038BF14 /* Members.swift in Sources */,
 				DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */,
 				DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */,
 				DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */,

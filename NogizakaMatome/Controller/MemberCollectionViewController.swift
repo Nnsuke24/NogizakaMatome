@@ -12,6 +12,8 @@ private let reuseIdentifier = "Cell"
 
 class MemberCollectionViewController: UICollectionViewController {
 
+    var memberList: Array<String>?
+    
     @IBOutlet weak var memberCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +22,9 @@ class MemberCollectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
         
         // Register cell classes
-        self.collectionView!.register(MemberCollectionViewCell.self, forCellWithReuseIdentifier: "memberCell")
+//        self.collectionView!.register(MemberCollectionViewCell.self, forCellWithReuseIdentifier: "memberCell")
 
+        memberList = Members().list
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,18 +52,23 @@ class MemberCollectionViewController: UICollectionViewController {
     // データの個数を返す
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 1
+        return 2
     }
 
     // データを返す
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let memberCell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "memberCell", for: indexPath)
+        let memberCell:MemberCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "memberCell", for: indexPath) as! MemberCollectionViewCell
         
         //セルの背景色をランダムに設定する。
         memberCell.backgroundColor = UIColor(red: CGFloat(drand48()),
                                        green: CGFloat(drand48()),
                                        blue: CGFloat(drand48()),
                                        alpha: 1.0)
+        
+        if let bindMemberlist: Array<String> = memberList {
+            memberCell.name.text = bindMemberlist[indexPath.item]
+        }
+        
         
         return memberCell
     }

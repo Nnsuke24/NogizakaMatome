@@ -114,7 +114,7 @@
                                 </view>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <outlet property="memberCell" destination="zme-6d-cRR" id="vWl-JM-CO6"/>
+                                    <outlet property="name" destination="zme-6d-cRR" id="DHx-AH-q8t"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>

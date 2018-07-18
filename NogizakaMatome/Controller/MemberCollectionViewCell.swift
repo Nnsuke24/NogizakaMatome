@@ -9,5 +9,5 @@
 import UIKit
 
 class MemberCollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var memberCell: UILabel!
+    @IBOutlet weak var name: UILabel!
 }
