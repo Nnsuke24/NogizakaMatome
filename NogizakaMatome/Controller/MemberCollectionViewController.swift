@@ -12,7 +12,7 @@ private let reuseIdentifier = "Cell"
 
 class MemberCollectionViewController: UICollectionViewController {
 
-    var memberList: Array<String>?
+    var memberList: Array<Member>?
     
     @IBOutlet weak var memberCollectionView: UICollectionView!
     override func viewDidLoad() {
@@ -65,8 +65,10 @@ class MemberCollectionViewController: UICollectionViewController {
                                        blue: CGFloat(drand48()),
                                        alpha: 1.0)
         
-        if let bindMemberlist: Array<String> = memberList {
-            memberCell.name.text = bindMemberlist[indexPath.item]
+        if let bindMemberlist: Array<Member> = memberList {
+            let member = bindMemberlist[indexPath.item]
+            memberCell.name.text = member.name
+            memberCell.thumbnail.image = UIImage(named: member.image!)
         }
         
         

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--楽曲-->
         <scene sceneID="mkg-A0-N92">
             <objects>
                 <viewController id="cfO-HC-lLm" sceneMemberID="viewController">
@@ -29,82 +29,40 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bIV-2S-Xq5"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="w68-dv-j8C"/>
+                    <tabBarItem key="tabBarItem" title="楽曲" id="w68-dv-j8C"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9SK-xc-7RC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="526" y="-275"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="RL8-Ho-nhh">
-            <objects>
-                <collectionViewController id="c5P-dj-JDh" customClass="MemberCollectionViewController" customModule="NogizakaMatome" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="gpi-TH-3eb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="R2X-mV-LlV">
-                            <size key="itemSize" width="212" height="211"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="yS6-gL-DDG" customClass="MemberCollectionViewCell" customModule="NogizakaMatome" customModuleProvider="target">
-                                <rect key="frame" x="81.5" y="0.0" width="212" height="211"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="212" height="211"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sis-Kb-lx2">
-                                            <rect key="frame" x="85" y="134" width="45" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </view>
-                                <connections>
-                                    <outlet property="memberName" destination="Sis-Kb-lx2" id="N42-dj-08u"/>
-                                </connections>
-                            </collectionViewCell>
-                        </cells>
-                    </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="HdC-cu-7Wp"/>
-                    <connections>
-                        <outlet property="memberCollectionView" destination="gpi-TH-3eb" id="tet-Qy-NEo"/>
-                    </connections>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ql3-gs-Y6U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="89" y="-1343"/>
-        </scene>
-        <!--Item-->
+        <!--メンバー-->
         <scene sceneID="XMo-dJ-Ch5">
             <objects>
                 <collectionViewController id="MhU-cj-A7K" customClass="MemberCollectionViewController" customModule="NogizakaMatome" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YGf-C7-Wzm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DDi-2W-XX0">
-                            <size key="itemSize" width="188" height="174"/>
+                            <size key="itemSize" width="177" height="174"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="memberCell" id="QEd-Ml-eZj" customClass="MemberCollectionViewCell" customModule="NogizakaMatome" customModuleProvider="target">
-                                <rect key="frame" x="93.5" y="0.0" width="188" height="174"/>
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="188" height="174"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="177" height="174"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gd4-NP-JUK">
+                                            <rect key="frame" x="24" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zme-6d-cRR">
-                                            <rect key="frame" x="73" y="133" width="45" height="21"/>
+                                            <rect key="frame" x="25" y="133" width="127" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -115,6 +73,7 @@
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="name" destination="zme-6d-cRR" id="DHx-AH-q8t"/>
+                                    <outlet property="thumbnail" destination="gd4-NP-JUK" id="mLC-9z-ZWW"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -123,11 +82,26 @@
                             <outlet property="delegate" destination="MhU-cj-A7K" id="2pT-ay-aKL"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Item" id="fnC-GL-rkf"/>
+                    <tabBarItem key="tabBarItem" title="メンバー" id="fnC-GL-rkf"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8o-qf-Awl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="525.60000000000002" y="-1035.832083958021"/>
+            <point key="canvasLocation" x="524" y="-1036.7316341829087"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jm9-th-jBs">
+            <objects>
+                <viewController id="xDq-zC-bKh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WjJ-Kw-cor">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PZl-wp-maz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bas-po-aYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="-1037"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dIH-vL-l6D">

@@ -9,5 +9,13 @@
 import Foundation
 
 class Members {
-    let list:Array = ["白石麻衣", "西野七瀬"]
+    var list: Array<Member>?
+    
+    init() {
+        let shiraishi = Member(name: "白石麻衣", image: "2018年乃木坂46プロフィール_白石麻衣.jpg")
+        let nishino = Member(name: "西野七瀬", image: "2018年乃木坂46プロフィール_西野七瀬.jpg")
+        list = Array()
+        list?.append(shiraishi)
+        list?.append(nishino)
+    }
 }
