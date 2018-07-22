@@ -83,25 +83,61 @@
                         </connections>
                     </collectionView>
                     <tabBarItem key="tabBarItem" title="メンバー" id="fnC-GL-rkf"/>
+                    <connections>
+                        <segue destination="xDq-zC-bKh" kind="presentation" identifier="toMemeberDetailVC" id="CHd-3f-VHN"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8o-qf-Awl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="524" y="-1036.7316341829087"/>
         </scene>
-        <!--View Controller-->
+        <!--Member Detail View Controller-->
         <scene sceneID="Jm9-th-jBs">
             <objects>
-                <viewController id="xDq-zC-bKh" sceneMemberID="viewController">
+                <viewController id="xDq-zC-bKh" customClass="MemberDetailViewController" customModule="NogizakaMatome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WjJ-Kw-cor">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ag2-tc-I3Y">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="lD5-fy-CM7"/>
+                                </items>
+                            </navigationBar>
+                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-cp-4ey">
+                                <rect key="frame" x="0.0" y="228" width="375" height="439"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JqB-6Y-KQB">
+                                <rect key="frame" x="115" y="126" width="144" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hCg-cp-4ey" firstAttribute="bottom" secondItem="PZl-wp-maz" secondAttribute="bottom" id="0vw-fG-d5H"/>
+                            <constraint firstItem="ag2-tc-I3Y" firstAttribute="top" secondItem="PZl-wp-maz" secondAttribute="top" id="7qh-Y7-5ax"/>
+                            <constraint firstItem="hCg-cp-4ey" firstAttribute="trailing" secondItem="PZl-wp-maz" secondAttribute="trailing" id="Ui1-NM-dqs"/>
+                            <constraint firstItem="hCg-cp-4ey" firstAttribute="leading" secondItem="PZl-wp-maz" secondAttribute="leading" id="zhm-dv-e2L"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PZl-wp-maz"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="JqB-6Y-KQB" id="a4e-DX-2oz"/>
+                        <outlet property="webView" destination="hCg-cp-4ey" id="xl7-kd-0Yf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bas-po-aYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="-1037"/>
+            <point key="canvasLocation" x="1357.5999999999999" y="-1037.6311844077961"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dIH-vL-l6D">

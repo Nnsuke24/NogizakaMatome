@@ -14,6 +14,8 @@ class MemberCollectionViewController: UICollectionViewController {
 
     var memberList: Array<Member>?
     
+    var selectedMember: String?
+    
     @IBOutlet weak var memberCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,15 +34,19 @@ class MemberCollectionViewController: UICollectionViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    /*
+    
     // MARK: - Navigation
 
+    // セグエの準備
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+        if (segue.identifier == "toMemeberDetailVC") {
+            let memberDetailVC: MemberDetailViewController = (segue.destination as? MemberDetailViewController)!
+//            memberDetailVC.memberName = selectedMember
+            memberDetailVC.memberName = "受け渡し成功"
+            memberDetailVC.urlStr = "https://www.nogizaka46.com/member/detail/akimotomanatsu.php"
+        }
     }
-    */
 
     // MARK: UICollectionViewDataSource
 
@@ -84,12 +90,17 @@ class MemberCollectionViewController: UICollectionViewController {
     }
     */
 
-    /*
-    // Uncomment this method to specify if the specified item should be selected
+    // セルが選択された時の処理
     override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
+        if let bindMemberlist: Array<Member> = memberList {
+            selectedMember = bindMemberlist[indexPath.item].name
+        }
+        if let selectedMember = selectedMember {
+            performSegue(withIdentifier: "toMemeberDetailVC", sender: nil)
+            print("セグエ")
+        }
         return true
     }
-    */
 
     /*
     // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item

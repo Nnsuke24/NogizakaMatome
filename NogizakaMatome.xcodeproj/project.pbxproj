@@ -16,6 +16,7 @@
 		DD223FF820FB3CAD00472386 /* NogizakaMatomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD223FF720FB3CAD00472386 /* NogizakaMatomeUITests.swift */; };
 		DD46964C20FF84BD0038BF14 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46964B20FF84BD0038BF14 /* Members.swift */; };
 		DD46964E2100C8F70038BF14 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46964D2100C8F70038BF14 /* Member.swift */; };
+		DD4696502100DDAB0038BF14 /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46964F2100DDAB0038BF14 /* MemberDetailViewController.swift */; };
 		DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */; };
 		DDB8A2A120FCF786001077CE /* MemberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		DD223FF920FB3CAD00472386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD46964B20FF84BD0038BF14 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
 		DD46964D2100C8F70038BF14 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		DD46964F2100DDAB0038BF14 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
 		DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewController.swift; sourceTree = "<group>"; };
 		DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 			children = (
 				DDB8A29E20FCB9BF001077CE /* MemberCollectionViewController.swift */,
 				DDB8A2A020FCF786001077CE /* MemberCollectionViewCell.swift */,
+				DD46964F2100DDAB0038BF14 /* MemberDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				DD46964E2100C8F70038BF14 /* Member.swift in Sources */,
 				DD46964C20FF84BD0038BF14 /* Members.swift in Sources */,
 				DDB8A29F20FCB9BF001077CE /* MemberCollectionViewController.swift in Sources */,
+				DD4696502100DDAB0038BF14 /* MemberDetailViewController.swift in Sources */,
 				DD223FD520FB3CAC00472386 /* AppDelegate.swift in Sources */,
 				DD223FDD20FB3CAC00472386 /* NogizakaMatome.xcdatamodeld in Sources */,
 			);
