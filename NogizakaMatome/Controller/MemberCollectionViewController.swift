@@ -22,9 +22,6 @@ class MemberCollectionViewController: UICollectionViewController {
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-        
-        // Register cell classes
-//        self.collectionView!.register(MemberCollectionViewCell.self, forCellWithReuseIdentifier: "memberCell")
 
         memberList = Members().list
     }
