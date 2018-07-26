@@ -10,9 +10,11 @@ import Foundation
 class Member {
     var name: String?
     var image: String?
+    var romanName: String?
     
-    init(name: String, image: String) {
+    init(name: String, image: String, romanName: String) {
         self.name = name
         self.image = image
+        self.romanName = romanName
     }
 }

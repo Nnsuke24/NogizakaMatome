@@ -100,7 +100,7 @@
                         </connections>
                     </collectionView>
                     <tabBarItem key="tabBarItem" title="メンバー" id="fnC-GL-rkf"/>
-                    <navigationItem key="navigationItem" id="a7l-dN-l3v"/>
+                    <navigationItem key="navigationItem" title="メンバー" id="a7l-dN-l3v"/>
                     <connections>
                         <segue destination="xDq-zC-bKh" kind="show" identifier="toMemeberDetailVC" id="Pnh-xv-R0u"/>
                     </connections>

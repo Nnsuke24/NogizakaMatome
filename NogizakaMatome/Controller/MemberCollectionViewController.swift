@@ -14,7 +14,7 @@ class MemberCollectionViewController: UICollectionViewController {
 
     var memberList: Array<Member>?
     
-    var selectedMember: String?
+    var selectedMember: Member?
     
     @IBOutlet weak var memberCollectionView: UICollectionView!
     override func viewDidLoad() {
@@ -39,9 +39,16 @@ class MemberCollectionViewController: UICollectionViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "toMemeberDetailVC") {
             let memberDetailVC: MemberDetailViewController = (segue.destination as? MemberDetailViewController)!
-//            memberDetailVC.memberName = selectedMember
-            memberDetailVC.memberName = "受け渡し成功"
-            memberDetailVC.urlStr = "https://www.nogizaka46.com/member/detail/akimotomanatsu.php"
+//            memberDetailVC.memberName = selectedMember?.name
+            if let any = sender {
+                switch any {
+                case let member as Member:
+                    memberDetailVC.memberName = member.name
+                    memberDetailVC.urlStr = "https://www.nogizaka46.com/member/detail/" + member.romanName! + ".php"
+                default:
+                    break
+                }
+            }
         }
     }
 
@@ -90,10 +97,10 @@ class MemberCollectionViewController: UICollectionViewController {
     // セルが選択された時の処理
     override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
         if let bindMemberlist: Array<Member> = memberList {
-            selectedMember = bindMemberlist[indexPath.item].name
+            selectedMember = bindMemberlist[indexPath.item]
         }
         if let selectedMember = selectedMember {
-            performSegue(withIdentifier: "toMemeberDetailVC", sender: nil)
+            performSegue(withIdentifier: "toMemeberDetailVC", sender: selectedMember)
             print("セグエ")
         }
         return true
