@@ -12,7 +12,7 @@ class Members {
     var list: Array<Member>?
     
     init() {
-        // あかさたな
+        // あかさた
         let shiraishi = Member(name: "白石麻衣", image: "2018年乃木坂46プロフィール_白石麻衣.jpg", romanName: "shiraishimai")
         let nishino =   Member(name: "西野七瀬", image: "2018年乃木坂46プロフィール_西野七瀬.jpg", romanName: "nishinonanase")
         let manatsu =   Member(name: "秋元真夏", image: "2018年乃木坂46プロフィール_秋元真夏.jpg", romanName: "akimotomanatsu")
@@ -28,21 +28,21 @@ class Members {
         let kawago =    Member(name: "川後陽菜", image: "2018年乃木坂46プロフィール_川後陽菜.jpg", romanName: "kawagohina")
         let hinako =    Member(name: "北野日奈子", image: "2018年乃木坂46プロフィール_北野日奈子.jpg", romanName: "kitanohinako")
         let kubo =      Member(name: "久保史緒里", image: "2018年乃木坂46プロフィール_久保史緒里.jpg", romanName: "kuboshiori")
-        let asuka =     Member(name: "齋藤飛鳥", image: "2018年乃木坂46プロフィール_齋藤飛鳥.jpg", romanName: "saitoasuka")
-        let yuuri =     Member(name: "斉藤優里", image: "2018年乃木坂46プロフィール_斉藤優里.jpg", romanName: "saitoyuuri")
+        let asuka =     Member(name: "齋藤飛鳥", image: "2018年乃木坂46プロフィール_齋藤飛鳥.jpg", romanName: "saitouasuka")
+        let yuuri =     Member(name: "斉藤優里", image: "2018年乃木坂46プロフィール_斉藤優里.jpg", romanName: "saitouyuuri")
         let tamami =    Member(name: "阪口珠美", image: "2018年乃木坂46プロフィール_阪口珠美.jpg", romanName: "sakaguchitamami")
         let sakurai =   Member(name: "桜井玲香", image: "2018年乃木坂46プロフィール_桜井玲香.jpg", romanName: "sakuraireika")
         let kotoko =    Member(name: "佐々木琴子", image: "2018年乃木坂46プロフィール_佐々木琴子.jpg", romanName: "sasakikotoko")
-        let denchan =   Member(name: "佐藤楓", image: "2018年乃木坂46プロフィール_佐藤楓.jpg", romanName: "satokaede")
+        let denchan =   Member(name: "佐藤楓", image: "2018年乃木坂46プロフィール_佐藤楓.jpg", romanName: "satoukaede")
         let shinuchi =  Member(name: "新内眞衣", image: "2018年乃木坂46プロフィール_新内眞衣.jpg", romanName: "shinuchimai")
         let ayane =     Member(name: "鈴木絢音", image: "2018年乃木坂46プロフィール_鈴木絢音.jpg", romanName: "suzukiayane")
         let takayama =  Member(name: "高山一実", image: "2018年乃木坂46プロフィール_高山一実.jpg", romanName: "takayamakazumi")
         let ranze =     Member(name: "寺田蘭世", image: "2018年乃木坂46プロフィール_寺田蘭世.jpg", romanName: "teradaranze")
+        
+        // なはまやらわ
         let nakada =    Member(name: "中田花奈", image: "2018年乃木坂46プロフィール_中田花奈.jpg", romanName: "nakadakana")
         let reno =      Member(name: "中村麗乃", image: "2018年乃木坂46プロフィール_中村麗乃.jpg", romanName: "nakamurareno")
-        let noujo =     Member(name: "能條愛未", image: "2018年乃木坂46プロフィール_能條愛未.jpg", romanName: "noujoami")
-        
-        // はまやらわ
+        let noujo =     Member(name: "能條愛未", image: "2018年乃木坂46プロフィール_能條愛未.jpg", romanName: "noujouami")
         let hinachima = Member(name: "樋口日奈", image: "2018年乃木坂46プロフィール_樋口日奈.jpg", romanName: "higuchihina")
         let minami =    Member(name: "星野みなみ", image: "2018年乃木坂46プロフィール_星野みなみ.jpg", romanName: "hoshinominami")
         let hori =      Member(name: "堀未央奈", image: "2018年乃木坂46プロフィール_堀未央奈.jpg", romanName: "horimiona")
@@ -51,7 +51,7 @@ class Members {
         let zaki =      Member(name: "山崎怜奈", image: "2018年乃木坂46プロフィール_山崎怜奈.jpg", romanName: "yamazakirena")
         let mizuki =    Member(name: "山下美月", image: "2018年乃木坂46プロフィール_山下美月.jpg", romanName: "yamashitamizuki")
         let ayatiy =    Member(name: "吉田綾乃クリスティー", image: "2018年乃木坂46プロフィール_吉田綾乃クリスティー.jpg", romanName: "yoshidaayanochristie")
-        let yoda =      Member(name: "与田祐希", image: "2018年乃木坂46プロフィール_与田祐希.jpg", romanName: "yodayuki")
+        let yoda =      Member(name: "与田祐希", image: "2018年乃木坂46プロフィール_与田祐希.jpg", romanName: "yodayuuki")
         let waka =      Member(name: "若月佑美", image: "2018年乃木坂46プロフィール_若月佑美.jpg", romanName: "wakatsukiyumi")
         let miria =     Member(name: "渡辺みり愛", image: "2018年乃木坂46プロフィール_渡辺みり愛.jpg", romanName: "watanabemiria")
         let maaya =     Member(name: "和田まあや", image: "2018年乃木坂46プロフィール_和田まあや.jpg", romanName: "wadamaaya")
