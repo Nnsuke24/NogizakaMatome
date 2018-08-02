@@ -62,7 +62,12 @@ class MemberCollectionViewController: UICollectionViewController {
     // データの個数を返す
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 11
+        
+        if let list = memberList {
+            return list.count
+        } else {
+            return 0
+        }
     }
 
     // データを返す
